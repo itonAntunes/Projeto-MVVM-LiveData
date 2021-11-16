@@ -7,11 +7,11 @@ class MainRepository {
             Thread.sleep(3000)
             callback.invoke(
                 listOf(
-                    Filme(1"Título 01"),
-                    Filme(2"Título 02")
+                    Filme(1,"Título 01"),
+                    Filme(2,"Título 02")
                 )
             )
-        })
+        }) . start()
 
     }
 }
